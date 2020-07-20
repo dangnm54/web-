@@ -15,15 +15,37 @@
     <nav id='header-nav' class='navbar navbar-default'>
       <div class='container'>
         <div class='navbar-header'>
-          <a href='index.html' class='pull-left visible-sm visible-md visible-lg'>
-            <div id='logo' alt='logo'></div></a> 
+
+          <a href='index.html' class='pull-left'>
+            <div id='logo' alt='logo'></div>
+          </a> 
 
           <div class='navbar-brand'>
-            <a href='index.html'><h1>Chipism</h1></a>
+            <a href='index.html'><h1>Chippi</h1></a>
             <p><img src='images/star.png' alt='koser certification'>
-              <span>#1 Electronics Market in Vietnam</span></p></div>
+              <span>#1 Electronics Market in Vietnam</span></p>
+          </div>
 
+          <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#colsp-nav' aria-expanded='false'>
+            <span class='sr-only'>Toggle nav</span>
+            <span class='icon-bar'> </span>
+            <span class='icon-bar'> </span>
+            <span class='icon-bar'> </span>
+          </button>
+        </div>
 
+        <div id='colsp-nav' class='collapse navbar-collapse'> 
+          <ul id='nav-ls' class='nav navbar-nav navbar-right'>
+            <li><a href='menu.html'>
+              <span class='glyphicon glyphicon-cutlery'></span><br class='hidden-xs'> Menu</a></li>
+            <li><a href='#'>
+              <span class='glyphicon glyphicon-info-sign'></span><br class='hidden-xs'> About</a></li>
+            <li><a href='#'>
+              <span class='glyphicon glyphicon-certificate'></span><br class='hidden-xs'> Awards</a></li>
+            <li id='phone' class='hidden-xs'><a href='tel:410-602-5008'>
+              <span>410-602-5008</span></a><div>Shipping Available</div></li>
+          </ul>       
+        </div>  
       </div>
     </nav>
   </header>

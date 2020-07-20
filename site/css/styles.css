@@ -1,6 +1,39 @@
-body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
-}
+body { font-size: 16px;
+  	   color: #fff;
+  	   background-color: #61122f;
+  	   font-family: 'Nunito', sans-serif;}
+
+/** HEADER **/
+#header-nav { background-color: #f6b319;
+  			  border-radius: 0;
+  			  border: 0;}
+
+.container {margin-left: 20px;}
+
+.navbar-header a {margin-right: 10px}
+
+
+#logo { background: url('../images/logo-1.png') no-repeat;
+ 	    width: 150px;
+ 	    height: 112px;
+  	    margin: 15px 15px 10px 0;}
+
+.navbar-brand {padding-top: 10px;}
+
+.navbar-brand h1 { font-family: 'Roboto Mono', monospace;
+				   color: #2554C7;
+				   font-size: 2em;
+				   text-transform: uppercase;
+				   font-weight: bold;
+				   text-shadow: 2px 2px 2px lightblue;
+				   margin-top: 25px;
+				   margin-bottom: 0;
+				   line-height: .75; }
+
+.navbar-brand a:hover, .navar-brand a:focus {text-decoration: none}
+
+.navbar-brand p span {color: #0073cf;
+				 	  font-weight: bold;
+				 	  font-size: 1em;
+				 	  text-shadow: .2px .2px .2px;
+				 	  vertical-align: bottom;}

@@ -64,13 +64,56 @@ body { font-size: 16px;
 									 margin-top: -30px;
 									 margin-bottom: 15px;}
 
+#call > a {font-size: 1.5em;
+		   display: block;
+		   margin: 0 20px;
+		   padding: 10px;
+		   border: 2px solid #fff;
+		   background-color: #f6b319;
+		   color: #951c49;}
+
+.container .jumbotron {margin-top: 30px;
+					   padding: 0;
+					   box-shadow: 0 0 50px #3F0C1F;
+				   	   border: 2px solid #3F0C1F;
+					   padding-left: 0px;
+					   padding-right: 0px;}
+
+#menu, #specials, #map {height: 250px;
+						width: 100%;
+						margin-bottom: 15px;
+						position: relative;
+						border: 2px solid #3F0C1F;
+						overflow: hidden;}
+
+#menu:hover, #specials:hover, #map:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;}
+
+#menu {background: url('../images/menu.jpg') no-repeat; 
+	   background-position: center;}
+
+#specials {background: url('../images/spec.jpg') no-repeat; 
+	   	   background-position: center;}	   	
+
+#menu span, #specials span, #map span {position: absolute;
+									   bottom: 0;
+									   width: 100%;
+									   text-align: center;
+									   font-size: 1.6em;
+									   text-transform: uppercase;
+									   background-color: #000;
+									   color: #fff;
+									   opacity: .7;}
+
 @media (min-width: 1200px) { #logo{ 
 	background: url('../images/logo.png') no-repeat;
  	width: 150px;
  	height: 112px;
   	margin: 10px 15px 12px 0;} 
   	.navbar-brand p span {position: relative;
-						  top: -2px;} }
+						  top: -2px;}
+	.container .jumbotron {background: url('../images/jum-12k.jpg') no-repeat;
+						   height: 675px;} }
 
 @media (min-width: 992px) and (max-width: 1199px) { #logo{
 	background: url('../images/logo-130.jpg') no-repeat;
@@ -78,7 +121,9 @@ body { font-size: 16px;
 	height: 100px;
 	margin: 5px 5px 5px 0;} 
 	.navbar-brand p span {position: relative;
-						  top: -3px;} }
+						  top: -3px;}
+	.container .jumbotron {background: url('../images/jum-991.jpg') no-repeat;
+						   height: 558px;} }					  	
 
 @media (min-width: 768px) and (max-width: 991px) { #logo{
 	background: url('../images/logo-130.jpg') no-repeat;
@@ -92,7 +137,10 @@ body { font-size: 16px;
 	#nav-ls a {font-size: 1em;}
 	#nav-ls {margin-top: 0;} 
 	.navbar-brand p span {position: relative;
-						  top: -2px;} }
+						  top: -2px;} 
+	.container .jumbotron {background: url('../images/jum-768.jpg') no-repeat;
+						   height: 432px;} }
+				
 
 @media (max-width: 767px) { #logo{
 	background: url('../images/logo-100.jpg') no-repeat;
@@ -115,13 +163,17 @@ body { font-size: 16px;
 						  bottom: px;}
 	.navbar-brand p img {height: 4vw;} 
 
-	#colsp-nav { background-color: lightblue; }
+	#colsp-nav {background-color: lightblue;}
 
 	#colsp-nav a span {font-size: 1em;
 				   margin-right: 5px;}
 
-	#colsp-nav a {font-size: 1.2em;} }
+	#colsp-nav a {font-size: 1.2em;} 
+	
+	#menu, #specials, #map {width: 360px;
+					  margin: 0 auto 15px;}}
 
 
 
+	
 

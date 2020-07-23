@@ -105,6 +105,22 @@ body { font-size: 16px;
 									   color: #fff;
 									   opacity: .7;}
 
+.panel-footer {margin-top: 30px;
+			   padding-top: 35px;
+			   padding-bottom: 30px;
+			   background-color: #222;
+			   border-top: 0;}
+
+.panel-footer div.row {margin-bottom: 30px;
+					   margin-left: 30px;}
+
+#hr, #address, #quote {line-height: 1.8}
+
+#hr > span, #address > span, #quote > span {font-size: 1.3em;
+											color: #007FFF;}
+
+#quote {font-style: italic;}
+
 @media (min-width: 1200px) { #logo{ 
 	background: url('../images/logo.png') no-repeat;
  	width: 150px;
@@ -171,7 +187,14 @@ body { font-size: 16px;
 	#colsp-nav a {font-size: 1.2em;} 
 	
 	#menu, #specials, #map {width: 360px;
-					  margin: 0 auto 15px;}}
+					  margin: 0 auto 15px;}
+
+	.panel-footer section {margin-bottom: 25px;
+						   text-align:center;}
+
+	.panel-footer section hr {width: 50%;} 
+
+	#quote {margin-bottom: 0px;}}
 
 
 

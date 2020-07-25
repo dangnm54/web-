@@ -63,6 +63,7 @@ body { font-size: 16px;
 .navbar-header button.navbar-toggle {clear: both;
 									 margin-top: -30px;
 									 margin-bottom: 15px;}
+/** /HEADER **/
 
 #call > a {font-size: 1.5em;
 		   display: block;
@@ -72,6 +73,7 @@ body { font-size: 16px;
 		   background-color: #f6b319;
 		   color: #951c49;}
 
+/** MAIN PAGE **/
 .container .jumbotron {margin-top: 30px;
 					   padding: 0;
 					   box-shadow: 0 0 50px #3F0C1F;
@@ -103,7 +105,38 @@ body { font-size: 16px;
 									   text-transform: uppercase;
 									   background-color: #000;
 									   color: #fff;
-									   opacity: .7;}
+									   opacity: .6;}
+/** /MAIN PAGE **/
+
+/** MENU PAGE**/
+.cate-title {position: relative;
+			 border: 2px solid #3F0C1F;
+			 overflow: hidden;
+			 width: 200px;
+			 height: 200px;
+			 margin: 0 auto 15px;}
+
+.cate-title span {position: absolute;
+				  bottom: 0;
+				  background-color: #000;
+				  color: #fff;
+				  opacity: .6;
+				  width: 100%;
+				  text-align: center;
+				  font-size: 1.2em;
+				  text-transform: uppercase;
+				  height: 27px;}
+
+.cate-title:hover {box-shadow: 0 4px 10px #cccccc;}
+
+#menu-cate + div {margin-bottom: 40px;}
+
+
+
+
+/** /MENU PAGE**/
+
+/** FOOTER **/
 
 .panel-footer {margin-top: 30px;
 			   padding-top: 35px;
@@ -120,6 +153,8 @@ body { font-size: 16px;
 											color: #007FFF;}
 
 #quote {font-style: italic;}
+
+/** /FOOTER **/
 
 @media (min-width: 1200px) { #logo{ 
 	background: url('../images/logo.png') no-repeat;
@@ -195,6 +230,14 @@ body { font-size: 16px;
 	.panel-footer section hr {width: 50%;} 
 
 	#quote {margin-bottom: 0px;} }
+
+@media (max-width: 475px) {.col-xxs-12 
+	{position: relative;
+	 min-height: 1px;
+	 padding-right: 15px;
+	 padding-left: 15px;
+	 float: left;
+	 width: 100%;} }
 
 
 

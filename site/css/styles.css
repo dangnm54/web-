@@ -3,7 +3,7 @@ body { font-size: 16px;
   	   background-color: #61122f;
   	   font-family: 'Nunito', sans-serif;}
 
-/** HEADER **/
+/* HEADER */
 #header-nav { background-color: #f6b319;
   			  border-radius: 0;
   			  border: 0;}
@@ -63,7 +63,7 @@ body { font-size: 16px;
 .navbar-header button.navbar-toggle {clear: both;
 									 margin-top: -30px;
 									 margin-bottom: 15px;}
-/** /HEADER **/
+/* /HEADER */
 
 #call > a {font-size: 1.5em;
 		   display: block;
@@ -73,7 +73,7 @@ body { font-size: 16px;
 		   background-color: #f6b319;
 		   color: #951c49;}
 
-/** MAIN PAGE **/
+/* MAIN PAGE */
 .container .jumbotron {margin-top: 30px;
 					   padding: 0;
 					   box-shadow: 0 0 50px #3F0C1F;
@@ -106,9 +106,9 @@ body { font-size: 16px;
 									   background-color: #000;
 									   color: #fff;
 									   opacity: .6;}
-/** /MAIN PAGE **/
+/* /MAIN PAGE */
 
-/** MENU PAGE**/
+/* MENU PAGE */
 .cate-title {position: relative;
 			 border: 2px solid #3F0C1F;
 			 overflow: hidden;
@@ -130,14 +130,39 @@ body { font-size: 16px;
 .cate-title:hover {box-shadow: 0 4px 10px #cccccc;}
 
 #menu-cate + div {margin-bottom: 40px;}
+/* /MENU PAGE */
 
+/* SINGLE CATE */
+.item-title {margin-bottom: 15px;}
 
+.item-title hr {width: 80%;}
 
+.item-title .price {font-size: 1.1em;
+					text-align: right;}
 
-/** /MENU PAGE**/
+.item-title .price span {font-size: .8em;}
 
-/** FOOTER **/
+.item-pic {position: relative;
+		   border: 2px solid #3F0C1F;
+		   overflow: hidden;
+		   padding: 0;
+		   margin: auto -15px 20px auto;
+		   max-width: 250px;}
 
+.item-pic div {position: absolute;
+			   bottom: 0;
+			   right: 0;
+			   width: 80px;
+			   background-color: #557c3e;
+			   text-align: center;}
+
+h3.item-title {margin: 0 0 10px;}
+
+.item-detail {font-size: .9em;
+			  font-style: italic;}
+/* /SINGLE CATE */
+
+/* FOOTER */
 .panel-footer {margin-top: 30px;
 			   padding-top: 35px;
 			   padding-bottom: 30px;
@@ -153,8 +178,7 @@ body { font-size: 16px;
 											color: #007FFF;}
 
 #quote {font-style: italic;}
-
-/** /FOOTER **/
+/* /FOOTER */
 
 @media (min-width: 1200px) { #logo{ 
 	background: url('../images/logo.png') no-repeat;
@@ -229,7 +253,16 @@ body { font-size: 16px;
 
 	.panel-footer section hr {width: 50%;} 
 
-	#quote {margin-bottom: 0px;} }
+	#quote {margin-bottom: 0px;} 
+
+	.item-pic {margin-right: auto;
+			   margin-bottom: 5px;} 
+	
+	.item-title .price {text-align: center;} 
+
+	.describ {text-align: center;} 
+	
+	h3.item-title {margin-top: 15px;}}
 
 @media (max-width: 475px) {.col-xxs-12 
 	{position: relative;
